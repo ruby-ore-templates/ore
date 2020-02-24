@@ -22,6 +22,7 @@ module Ore
 
     # Default templates
     DEFAULT_TEMPLATES = [
+      :gem,
       :git,
       :mit,
       :bundler,
