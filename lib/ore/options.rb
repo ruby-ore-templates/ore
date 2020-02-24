@@ -20,6 +20,8 @@ module Ore
     # Default description
     DEFAULT_DESCRIPTION = %q{TODO: Description}
 
+    DEFAULT_SCM = :git
+
     # Default templates
     DEFAULT_TEMPLATES = [
       :gem,
@@ -36,7 +38,8 @@ module Ore
       markup:      DEFAULT_MARKUP,
       version:     DEFAULT_VERSION,
       summary:     DEFAULT_SUMMARY,
-      description: DEFAULT_DESCRIPTION
+      description: DEFAULT_DESCRIPTION,
+      scm: DEFAULT_SCM,
     }
     DEFAULT_TEMPLATES.each { |name| DEFAULTS[name] = true }
 

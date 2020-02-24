@@ -46,6 +46,8 @@ module Ore
     # define the options
     generator_option :markup, type:   :string,
                               banner: 'markdown|textile|rdoc'
+    generator_option :scm, type:   :string,
+                              banner: 'git|hg'
     generator_option :markdown, type: :boolean
     generator_option :textile, type: :boolean
     generator_option :templates, type:    :array,
@@ -216,6 +218,7 @@ module Ore
              elsif File.directory?(File.join(@root,'.svn')) then :svn
              elsif options.hg?                              then :hg
              elsif options.git?                             then :git
+             else options.scm&.to_sym
              end
 
       case @scm
