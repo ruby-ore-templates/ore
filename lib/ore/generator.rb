@@ -10,6 +10,9 @@ require 'uri'
 
 module Ore
   class Generator < Thor::Group
+    def self.exit_on_failure?
+      true
+    end
 
     include Thor::Actions
     include Actions
