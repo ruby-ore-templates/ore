@@ -15,7 +15,7 @@ module Ore
     TEMPLATES_DIR = File.join(PATH,'templates')
 
     # The `data/ore` directory for Ore
-    DATA_DIR = File.expand_path(File.join('..','..','data','ore'),File.dirname(__FILE__))
+    DATA_DIR = File.expand_path(File.join('..','..','data','ore'),File.dirname(File.realpath(__FILE__)))
 
     # The `data/ore/templates` directory for Ore
     BUILTIN_TEMPLATES_DIR = File.join(DATA_DIR,'templates')
