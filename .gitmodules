@@ -1,30 +1,30 @@
 [submodule "data/ore/templates/gemspec_yml"]
 	path = data/ore/templates/gemspec_yml
-	url = https://github.com/ruby-ore/gemspec_yml.git
+	url = https://github.com/ruby-ore-templates/gemspec_yml.git
 [submodule "data/ore/templates/bundler"]
 	path = data/ore/templates/bundler
-	url = https://github.com/ruby-ore/bundler.git
+	url = https://github.com/ruby-ore-templates/bundler.git
 [submodule "data/ore/templates/rspec"]
 	path = data/ore/templates/rspec
 	url = https://github.com/ruby-ore/rspec.git
 [submodule "data/ore/templates/minitest"]
 	path = data/ore/templates/minitest
-	url = https://github.com/ruby-ore/minitest.git
+	url = https://github.com/ruby-ore-templates/minitest.git
 [submodule "data/ore/templates/yard"]
 	path = data/ore/templates/yard
-	url = https://github.com/ruby-ore/yard.git
+	url = https://github.com/ruby-ore-templates/yard.git
 [submodule "data/ore/templates/rdoc"]
 	path = data/ore/templates/rdoc
 	url = https://github.com/ruby-ore/rdoc.git
 [submodule "data/ore/templates/rubygems_tasks"]
 	path = data/ore/templates/rubygems_tasks
-	url = https://github.com/ruby-ore/rubygems_tasks.git
+	url = https://github.com/ruby-ore-templates/rubygems_tasks.git
 [submodule "data/ore/templates/test_unit"]
 	path = data/ore/templates/test_unit
 	url = https://github.com/ruby-ore/test_unit.git
 [submodule "data/ore/templates/travis"]
 	path = data/ore/templates/travis
-	url = https://github.com/ruby-ore/travis.git
+	url = https://github.com/ruby-ore-templates/travis.git
 [submodule "data/ore/templates/bsd"]
 	path = data/ore/templates/bsd
 	url = https://github.com/ruby-ore/bsd.git
@@ -48,7 +48,7 @@
 	url = https://github.com/ruby-ore/gem_package_task.git
 [submodule "data/ore/templates/mit"]
 	path = data/ore/templates/mit
-	url = https://github.com/ruby-ore/mit.git
+	url = https://github.com/ruby-ore-templates/mit.git
 [submodule "data/ore/templates/code_climate"]
 	path = data/ore/templates/code_climate
-	url = https://github.com/ruby-ore/code_climate.git
+	url = https://github.com/ruby-ore-templates/code_climate.git
